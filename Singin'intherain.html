@@ -4,28 +4,49 @@
   <title>Singin' in the Rain Lyrics</title>
   <meta charset="utf-8">
   <style>
-  #active{color: blue;}
-  .saw{
-    color: gray;
-  text-decoration: none;}
   h1 {
     color:skyblue;
     font: 70px Georgia, serif;
     text-align: center;
+    border-bottom: gray solid 2px;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 30px;
   }
   p {
     font: 18px Georgia, serif;
-    text-align: center;}
+    padding-left: 3px;
+    padding-top: 10px;
+    line-height: 28px;}
+  ol {
+    border-right: 2px solid gray;
+    font: 18px Georgia, serif;
+    width: 180px;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 35px;
+    line-height: 25px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
+    a {
+      color: black;
+    text-decoration: none;
+  }
   </style>
 </head>
 
 <body>
+<h1>Singin' In The Rain</h1>
+<div id="grid">
   <ol>
-    <li><a href="Moonriver.html" target="_blank" title="가사 페이지로 이동합니다" class="saw">Moon River</a></li>
-    <li><a href="Overtherainbow.html" target="_blank" title="가사 페이지로 이동합니다" class="saw">Over The Rainbow</a></li>
-    <li class="saw" id="active">Singin' In The Rain</li>
+    <li><a href="Moonriver.html" target="_blank" title="가사 페이지로 이동합니다">Moon River</a></li>
+    <li><a href="Overtherainbow.html" target="_blank" title="가사 페이지로 이동합니다">Over The Rainbow</a></li>
+    <li title="현재 페이지 입니다">Singin' In The Rain</li>
   </ol>
-  <h1>Singin' In The Rain</h1>
+<div>
 <p>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/AzKx3uN-0nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
@@ -51,5 +72,7 @@ I'm happy again<br>
 I'm singin' and dancing in the rain<br>
 I'm dancing and singin' in the rain<br>
 </p>
+</div>
+</div>
 </body>
 </html>
