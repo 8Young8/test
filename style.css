@@ -1,5 +1,9 @@
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: cornsilk;
+  margin:0;
 }
 h1 {
   color: navy;
@@ -25,13 +29,13 @@ a:visited {
 ol {
   border-right: 2px solid gray;
   font: 1.1rem/1.3 Georgia, serif;
-  width: 180px;
+  width: 220px;
   margin: 0;
   padding-top: 15px;
   padding-left: 35px;
 }
 iframe{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 p {
   font: 1.2rem/1.5 Georgia, serif;
